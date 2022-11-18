@@ -16,12 +16,13 @@ public class StarT {
      */
     public static void main(String[] args) {
         System.out.println("Star model");
+        //ini digunakan untuk menentukan batasan baris//
        for (int vertikal=1; vertikal<=3;vertikal++)
-       {
+       {//ini untuk menentukan batasan kolom//
            for (int horizontal =1; horizontal<=3; horizontal++)
-           {
+           {//agar horisontal akan berada pada posisi ke ketiga atau dibagian bawah//
                if (vertikal !=3)
-               {
+               {//untuk mentuksn posisi vertikal kosong yaitu hanyak akan terisi pada bagian tengah//
                if (horizontal==1||horizontal==3)
                {System.out.print(" ");}
                else 
